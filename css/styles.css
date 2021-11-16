@@ -1,4 +1,77 @@
-html {
+:root {
+--main-title-color:#FFFFFF;
+--second-title-color:#212121;
+--main-header-color:#757575;
+--second-text-color: #FFFFFF;
+--accent-first-color:#2196F3;
+--accent-second-color:#000000;
+--main-btn-color:#FFFFFF;
+--header-text-color:#212121;
+ body {
+  font-family: "Open sans", sans-serif;
+} 
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+p, h1, h2, h3, h4, h5,h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ .container {
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+ }
+button {
+  cursor: pointer;
+}
+
+.header-link {
+   font-weight: 500;
+   font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+   color: var(--header-text-color);
+}
+
+.header-link:hover {
+   color: var(--accent-first-color);
+}
+.header-mail {
+font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14px;
+   letter-spacing: 0.02em;
+   color: var(--accent-first-color)
+}
+
+.header-tel {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14px;
+   letter-spacing: 0.02em;
+   color: var(--main-header-color);
+}
+
+
+
+
+
+
+
+
+
+/* html {
   box-sizing: border-box;
 }
  * ,
@@ -47,15 +120,45 @@ html {
 
 
 
-:root {
---primary-text-color: #212121;
---title-text-color: #757575;
---accent-color: #2196F3;
---white-text-color: #FFFFFF;
---black-text-color:#000000;
-}
 
-body {
+
+
+
+
+
+
+/* Осн текст 212121  
+Вторичный цвет 757575 
+Активный 2196F3 
+Лого 000000 ; 2196F3
+Футер лого 2196F3 ; FFFFFF
+Футер FFFFFF 
+Футер color: rgba(255, 255, 255, 0.6); тел и почта
+Цвет фона основной #E5E5E5;
+Вторичній цвет фона background: #F5F4FA;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
 background-color: #E5E5E5;
 color: var(--primary-text-color);
 
@@ -90,11 +193,11 @@ ul {
 
 button {
 font-family: inherit;
-}
+} */
 
-/* Site nav */
+/* Header */
 
-.site-nav .link {
+/* .header .link {
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 14px;
@@ -103,29 +206,29 @@ letter-spacing: 0.02em;
 text-decoration: none;
 }
 
-.site-nav .link:hover ,
-.site-nav .link:focus {
+.header .link:hover ,
+.header .link:focus {
   color:var(--accent-color);
 }
 
-.site-nav .link.current {
+.header .link.current {
   color: var(--accent-color);
-}
+} */
 
 /* Auth-nav link */
 
-.auth-nav .list.contact {
+/* .auth-nav .list.contact {
 color: var(--title-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14x;
 letter-spacing: 0.02em;
-text-decoration: none;
+text-decoration: none; */
 }
 
 /* Features */
 
-.feature-list .title {
+/* .feature-list .title {
   color: var(--primary-text-color);
 font-weight: bold;
 font-size: 18px;
@@ -138,10 +241,10 @@ color:var(--title-text-color);
 font-size: 16px;
 line-height: 1.9px;
 letter-spacing: 0.03em;
-}
+} */
 
 /* Button */
-.button {
+/* .button {
 color: var(--primary-text-color);
 background-color: #F5F4FA;
 font-weight: 500;
@@ -191,7 +294,7 @@ line-height: 21.7px;
 letter-spacing: 0.03em;
 }
 
-/* Осн текст 212121 
+Осн текст 212121 
 Вторичный цвет 757575 
 Активный 2196F3 
 Лого 000000 ; 2196F3
@@ -200,7 +303,7 @@ letter-spacing: 0.03em;
 Футер color: rgba(255, 255, 255, 0.6); тел и почта
 Цвет фона основной #E5E5E5;
 Вторичній цвет фона background: #F5F4FA; */
-
+ */
 
 
 
