@@ -1,3 +1,19 @@
+/* Studio */
+
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-header-color: #757575;
+  --second-text-color: #ffffff;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --four-text-color: #757575;
+  --accent-first-color: #2196f3;
+  --accent-second-color: #000000;
+  --accent-third-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --header-text-color: #212121;
+}
+
 p,
 h1,
 h2,
@@ -14,6 +30,13 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 1200;
+  padding-left: 15;
+  padding-right: 15;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,22 +44,6 @@ a {
 button {
   cursor: pointer;
   font-family: inherit;
-}
-
-/* Студия */
-
-:root {
-  --main-title-color: #ffffff;
-  --second-title-color: #212121;
-  --main-header-color: #757575;
-  --second-text-color: #ffffff;
-  --third-text-color: rgba(255, 255, 255, 0.6);
-  --four-text-color: #757575;
-  --accent-first-color: #2196f3;
-  --accent-second-color: #000000;
-  --accent-third-color: #ffffff;
-  --main-btn-color: #ffffff;
-  --header-text-color: #212121;
 }
 
 ul {
@@ -54,9 +61,14 @@ body {
 .link {
   text-decoration: none;
 }
+/* ----------------HEADER--------------- */
 
 .header {
   background: #ffffff;
+}
+
+.header-list {
+  display: flex;
 }
 
 .link {
