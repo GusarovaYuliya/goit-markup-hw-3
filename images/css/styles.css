@@ -1,3 +1,28 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
 /* Студия */
 
 :root {
@@ -12,6 +37,10 @@
   --accent-third-color: #ffffff;
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
+}
+
+ul {
+  list-style: none;
 }
 
 body {
@@ -38,7 +67,7 @@ body {
   color: var(--header-text-color);
 }
 
-.link-current {
+.header-link-current {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -50,7 +79,7 @@ body {
   color: var(--accent-first-color);
 }
 
-.list .header-mail {
+.header-mail {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +88,7 @@ body {
   color: var(--accent-first-color);
 }
 
-.list .header-tel {
+.header-tel {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -76,7 +105,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
-  text-decoration: none;
 }
 
 .logo .span {
@@ -90,7 +118,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
 }
 /* ------------------Hero----------------------------  */
 .hero {
@@ -114,7 +141,7 @@ body {
   background-color: var(--accent-first-color);
 }
 
-.hero-btn .current {
+.header-list .current {
   color: var(--main-btn-color);
 }
 
@@ -182,7 +209,7 @@ body {
 
 /* -----------------ADRESS -----------------------*/
 
-logo-list {
+.logo-list {
   color: var(--accent-first-color);
   font-weight: bold;
   font-size: 26px;
@@ -190,7 +217,7 @@ logo-list {
   letter-spacing: 0.03em;
 }
 
-.logo-list .logo-class {
+.logo-class {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -282,7 +309,7 @@ button {
 
 /* Auth-nav link */
 
-.auth-nav .list.contact {
+.contact {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -293,7 +320,7 @@ button {
 
 /* -----------LIST----------- */
 
-.list .link {
+.button-list {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
