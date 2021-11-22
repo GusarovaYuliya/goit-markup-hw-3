@@ -31,7 +31,6 @@ ul {
 }
 
 .container {
-  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -73,6 +72,10 @@ body {
 }
 .header-list {
   display: flex;
+}
+
+.header-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-link {
